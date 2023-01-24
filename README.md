@@ -52,3 +52,24 @@ The log files in the dataset you'll be working with are partitioned by year and 
   - start_time, hour, day, week, month, year, weekday
 
 ![schema](https://user-images.githubusercontent.com/80867381/214418633-233b51ee-d1aa-41ec-b7a3-69a9525e92b6.png)
+
+
+## Steps
+1. Build SQL queries <br>
+- Create Tables queries
+- Insert data into tables queries
+- Drop tables queries
+
+2. Develop ETL processes for each file <br>
+`etl.ipynb` notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table.
+
+3. Build complete ETL pipeline
+
+4. test the result aginst defined queries
+
+
+## How to run the Project
+1. install requirements
+2. Run create_tables.py
+3. Run etl.py
+4. test.ipynb to view and test the results.
