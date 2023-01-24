@@ -50,3 +50,5 @@ The log files in the dataset you'll be working with are partitioned by year and 
   - artist_id, name, location, latitude, longitude
 5. time - timestamps of records in songplays broken down into specific units
   - start_time, hour, day, week, month, year, weekday
+
+<img src="C:/Users/moham/Desktop/Data Engineering Nanodegree_Data Modeling Project/schema.png" alt="Alt text" title="schema">
