@@ -23,7 +23,7 @@ The first dataset is a subset of real data from the Million Song Dataset. Each f
 
 And below is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like.
 
-{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
+`{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}`
 
 
 ### Log Dataset
@@ -34,4 +34,19 @@ The log files in the dataset you'll be working with are partitioned by year and 
         `log_data/2018/11/2018-11-12-events.json
          log_data/2018/11/2018-11-13-events.json`
 
-And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
+
+## Schema for Song Play Analysis
+
+### Fact Table
+1. songplays - records in log data associated with song plays i.e. records with page `NextSong`
+    - songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+
+### Dimension Tables
+2. users - users in the app
+  - user_id, first_name, last_name, gender, level
+3. songs - songs in music database
+  - song_id, title, artist_id, year, duration
+4. artists - artists in music database
+  - artist_id, name, location, latitude, longitude
+5. time - timestamps of records in songplays broken down into specific units
+  - start_time, hour, day, week, month, year, weekday
