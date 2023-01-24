@@ -1,0 +1,2 @@
+postgress
+psycopg2
