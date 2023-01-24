@@ -56,9 +56,9 @@ The log files in the dataset you'll be working with are partitioned by year and 
 
 ## Steps
 1. Build SQL queries <br>
-- Create Tables queries
+`- Create Tables queries
 - Insert data into tables queries
-- Drop tables queries
+- Drop tables queries`
 
 2. Develop ETL processes for each file <br>
 `etl.ipynb` notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table.
