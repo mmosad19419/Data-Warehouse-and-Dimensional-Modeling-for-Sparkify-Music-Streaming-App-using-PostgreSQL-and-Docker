@@ -51,4 +51,4 @@ The log files in the dataset you'll be working with are partitioned by year and 
 5. time - timestamps of records in songplays broken down into specific units
   - start_time, hour, day, week, month, year, weekday
 
-![database_schema](/Data-Modeling-with-Postgres/assets/schema.png?raw=true "database_schema")
+![database_schema](Data-Modeling-with-Postgres/assets/schema.png?raw=true "database_schema")
