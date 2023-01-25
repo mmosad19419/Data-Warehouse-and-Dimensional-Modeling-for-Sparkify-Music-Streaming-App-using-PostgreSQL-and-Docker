@@ -51,7 +51,7 @@ The log files in the dataset you'll be working with are partitioned by year and 
 5. time - timestamps of records in songplays broken down into specific units
   - start_time, hour, day, week, month, year, weekday
 
-![schema](https://user-images.githubusercontent.com/80867381/214418633-233b51ee-d1aa-41ec-b7a3-69a9525e92b6.png)
+![sparkifydb_erd](https://user-images.githubusercontent.com/80867381/214580187-78bda55c-c1ed-4296-8614-0dab5892df16.png)
 
 
 ## Steps
