@@ -7,7 +7,7 @@ create a Postgres database with tables designed to optimize queries on song play
 
 
 ## Project Description
-In this project, I'll apply what you've learned on data modeling with Postgres and build an ETL pipeline using Python.
+In this project, I'll complete data modeling with Postgres and build an ETL pipeline using Python.
 
 ### Tasks
 - Define fact and dimension tables for a star schema for a particular analytic focus
