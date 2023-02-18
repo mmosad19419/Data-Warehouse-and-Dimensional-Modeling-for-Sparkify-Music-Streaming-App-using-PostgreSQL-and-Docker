@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  jupyter:
+    container_name: jupyter_notebook
+    image: jupyter/datascience-notebook:x86_64-ubuntu-22.04
+    
+    volumes:
+        - ./:/home/jovyan/work
+
+    ports:
+        - 8888:8888
+
+
+  pgdatabase:
+    container_name: pgdatabase
+    image: postgres:13
+
+    environment:
+      - POSTGRES_USER=student
+      - POSTGRES_PASSWORD=student
+      - POSTGRES_DB=sparkifydb 
+
+    volumes:
+        - ./sparkifydb:/var/lib/postgresql/data:rw
+
+    ports:
+        - 5432:5432
