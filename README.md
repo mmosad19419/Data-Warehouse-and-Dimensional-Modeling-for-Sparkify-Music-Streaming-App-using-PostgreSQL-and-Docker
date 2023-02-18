@@ -7,7 +7,14 @@ create a Postgres database with tables designed to optimize queries on song play
 
 
 ## Project Description
-In this project, I'll complete data modeling with Postgres and build an ETL pipeline using Python.
+In this project, I'll complete data modeling with Postgres and build an ETL pipeline using Python [Docker Version]
+
+## Docker
+Use Docker compose file to create two containers 
+- Jupyter Notebook Setup
+- Initialize Postgress database sever to connect to it.
+
+file: docker-compose.yaml
 
 ### Tasks
 - Define fact and dimension tables for a star schema for a particular analytic focus
@@ -69,6 +76,9 @@ The log files in the dataset you'll be working with are partitioned by year and 
 
 
 ## How to run the Project
+1. clone the repo
+2. cd to the project dir
+3. RUN docker-compose up
 1. install requirements
 2. Run create_tables.py
 3. Run etl.py
