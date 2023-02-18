@@ -12,7 +12,7 @@ In this project, I'll complete data modeling with Postgres and build an ETL pipe
 ## Docker
 Use Docker compose file to create two containers 
 - Jupyter Notebook Setup
-- Initialize Postgress database sever to connect to it.
+- Initialize Postgress database server to connect to it.
 
 file: docker-compose.yaml
 
